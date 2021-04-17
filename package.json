@@ -1,0 +1,20 @@
+{
+  "name": "MainFolder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "js.io": "^3.3.0",
+    "tinyify": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "browserify main.js > bundle.js -d",
+    "build": "browserify main.js > bundle.js --plugin tinyify",
+    "watch": "browserify watchify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
